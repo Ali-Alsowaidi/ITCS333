@@ -1,4 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
 h1{
     text-align: center;
     color: burlywood;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color:#fff;
+    border: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+th{
+    text-align: center;
+    font-weight: bold;
+    background-color: #dee2de;
+    color: #000000;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+td{
+    text-align: center;
+    border: 1px solid #000000;
 }
