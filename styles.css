@@ -37,6 +37,9 @@ section h2 {
     text-align: center;
 }
 
+section p {
+    text-align: center;
+}
 
 main {
         padding: 20px;
@@ -70,8 +73,24 @@ td{
     border: 1px solid #000000;
 }
 
+.gallery img {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
 
+.responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}
 
 footer {
     background-color: #0084ff;
