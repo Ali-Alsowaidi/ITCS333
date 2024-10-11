@@ -33,6 +33,17 @@ nav a:hover {
             background-color: #547cff;
         }
 
+
+main {
+        padding: 20px;
+    }
+        
+    
+.section {
+        margin-bottom: 30px;
+    }
+
+
 table{
     border-collapse: collapse;
     margin: 30px auto;
@@ -53,4 +64,14 @@ th{
 td{
     text-align: center;
     border: 1px solid #000000;
+}
+
+
+
+
+footer {
+    background-color: #0084ff;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
