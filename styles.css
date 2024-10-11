@@ -3,10 +3,35 @@ body{
     background-color: white;
 }
 
+header {
+    background-color: #0084ff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
 h1{
     text-align: center;
-    color: burlywood;
+    color: white;
 }
+
+nav {
+    background-color: #003cff;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+            background-color: #547cff;
+        }
 
 table{
     border-collapse: collapse;
